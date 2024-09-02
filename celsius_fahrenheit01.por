@@ -18,7 +18,7 @@ programa
 		escreva("Digite a temperatura em Celsius: ")
 		leia (celsius) // entrada do usuário
 
-		// calcular F=((9.C)+160)/5
+		// calcular F=((9.C)+160)/5 
 		// fahrenheit = ((9 * celsius) + 160) / 5 (funciona)
 		fahrenheit = celsius * 1.8 + 32 // (funciona)
 
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 237; 
+ * @POSICAO-CURSOR = 712; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
