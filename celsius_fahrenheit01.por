@@ -1,6 +1,6 @@
 programa
 {
-	/*
+	/*
 		1) Faça um programa em Português Estruturado que receba 
 		uma temperatura em centígrados e transforme para fahrenheit. 
 		Sabe-se que a fórmula para conversão é F=((9.C)+160)/5.
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 712; 
+ * @POSICAO-CURSOR = 704; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
