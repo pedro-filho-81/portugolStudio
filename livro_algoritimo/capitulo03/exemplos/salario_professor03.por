@@ -1,5 +1,8 @@
 programa
 {
+	// inclui a biblioteca matemática
+	// cria o objeto mat para usar as finções da biblioteca
+	inclua biblioteca Matematica --> mat
 	/*
 	 * Desenvolver um programa que calcule o salário líquido 
 	 * de um professor. Para elaborar o programa, é necessário 
@@ -41,15 +44,21 @@ programa
 		desconto = salario_bruto * (percentual_descontos / 100)
 		sal_liquido = salario_bruto - desconto
 
+		limpa()
+
 		// exibe resultado
-		escreva("\n\tEXtrado Salário")
+		escreva("\nEXtrado Salário")
 		escreva("\nNome do professor: ", nome_professor)		
 		escreva("\nHoras trabalhadas: ", horas_trabalhadas)
 		escreva("\nValor das Horas R$ ", vl_horas_trabalhadas)
 		escreva("\nPercentual de desconto: ", percentual_descontos, "%")
-		escreva("\nSalário bruto R$ ", salario_bruto)
-		escreva("\nDescontos R$ ", desconto)
-		escreva("\nSalário líquido R$ ", sal_liquido, "\n")
+		
+		// usa o objeto mat da biblioteca matemática
+		// que chama a função arredondar(nome da variável, quantidade de decimais)
+		// para definir as casas decimais
+		escreva("\nSalário bruto R$ ", mat.arredondar(salario_bruto, 2))
+		escreva("\nDescontos R$ ", mat.arredondar(desconto, 2))
+		escreva("\nSalário líquido R$ ", mat.arredondar(sal_liquido, 2), "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -57,7 +66,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1379; 
+ * @POSICAO-CURSOR = 1864; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
