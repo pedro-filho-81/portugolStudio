@@ -38,8 +38,8 @@ programa
 		escreva( "\nValor tomado R$ ", mt.arredondar(capital, 2), "\n" )
 		escreva( "Taxa cobrada: ", mt.arredondar(taxa, 6), "%\n" )
 		escreva( "Tempo para pagamento: ", tempo, "meses\n" )
-		escreva( "Valor das prestações R$", mt.arredondar(prestacao, 2), "\n" )
-		escreva( "Juros cobrado R$", mt.arredondar(juros, 2), "\n" )
+		escreva( "Valor das prestações R$ ", mt.arredondar(prestacao, 2), "\n" )
+		escreva( "Juros cobrado R$  ", mt.arredondar(juros, 2), "\n" )
 		escreva( "Valor final R$", mt.arredondar(montante, 2), "\n" )
 	}
 }
@@ -59,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1311; 
+ * @POSICAO-CURSOR = 10; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
