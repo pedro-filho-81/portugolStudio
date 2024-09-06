@@ -12,11 +12,13 @@ programa
 		inteiro minAtual = 0 // i m tem 60 segundos
 		inteiro segAtual = 0
 
-		// início do dia meia noite
-		inteiro hrBase = 0 // meia noite
-		inteiro minBase = 0 // idem
-		inteiro segBase = 0 // idem
-
+		/* início do dia meia noite
+		 *  este é apenas para entendimento
+		 *  da lógica.
+			inteiro hrBase = 0 // meia noite
+			inteiro minBase = 0 // idem
+			inteiro segBase = 0 // idem
+		*/
 		// para calcular
 		inteiro hr_passadas = 0
 		inteiro min_passados = 0
@@ -51,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1248; 
+ * @POSICAO-CURSOR = 659; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
