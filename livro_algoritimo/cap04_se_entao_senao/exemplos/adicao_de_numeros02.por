@@ -20,14 +20,21 @@ programa
 		// variáveis
 		real a, b, c, d
 
+		
 		// entrada de dados
+		escreva("Entrada de dados:\n")
 		escreva("Digite um valor: ")
 		leia(a)
 		escreva("Outro valor: ")
 		leia(b)
 
+		escreva("\nCria variáveis\nreal a, b, c, d")
+		escreva("\na = ", a)
+		escreva("\nb = ", b)
+
 		// calcular
 		c = a + b
+		escreva("\nc = ", a, " + ", b)
 
 		// condição para exibir o valor de c
 		// se c maior ou igual a 10
@@ -35,7 +42,7 @@ programa
 		{
 			// d recebe c mais 5
 			d = c + 5
-			escreva("c = ", c)
+			escreva("\nc = ", c)
 			escreva("\nd = c + 5\n")
 			escreva("d = ", c + 5)
 		} // end se
@@ -43,7 +50,7 @@ programa
 		{			
 			// d recebe c - 7
 			d = c - 1
-			escreva("c = ", c)
+			escreva("\nc = ", c)
 			escreva("\nd = c - 7\n")
 			escreva("d = ", c - 7)
 		}		
@@ -55,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1200; 
+ * @POSICAO-CURSOR = 809; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
