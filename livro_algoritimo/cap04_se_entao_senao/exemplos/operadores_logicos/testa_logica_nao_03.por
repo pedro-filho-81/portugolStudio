@@ -20,11 +20,11 @@ programa
 	{
 		escreva("\tTABELA VERDADE DO OPERADOR LÓGICO (NÃO)\n")
 		escreva("***********************************************************\n")
-		escreva("se a = verdadeiro \tnão a \t= \tfalso\n")
-		escreva("se a = falso      \tnão a \t= \tverdadeiro\n")
+		escreva("se a é verdadeiro \tnão a \té \tfalso\n")
+		escreva("se a é falso      \tnão a \té \tverdadeiro\n")
 		escreva("***********************************************************\n")
 
-		escreva("O operador lógico (NAO) conhecido como NEGAÇÃO\n")
+		escreva("O operador lógico (NAO)\nconhecido como NEGAÇÃO da verdade.\n")
 		
 		// variável
 		inteiro a, b, c, x
@@ -37,17 +37,28 @@ programa
 		escreva("Digite o valor de x: ")
 		leia(x)
 
+		escreva("\nse x > 5 é verdadeiro,\nnão(x > 5) é falso")
 		// se x > 5 é verdadeiro, não(x > 5) é falso
 		se(nao(x > 5)) { // se falso
 			// executa está instrução
 			c = a + b
-			escreva("x = ", x, "\n", a, " + ", b, " = ", c, "\n")
-		} 
+			escreva("\nx = ", x,
+				" x é menor que ou igual a 5", 
+				"\nEntão x é falso\n",
+				"mostra a parte do SE\n",
+				"que é a soma de a + b\n", 
+				a, " + ", b, " = ", c, "\n")
+		} //fend se
 		// se não(x > 5) é falso senao é verdadeiro
 		senao { // se verdadeiro
 			// executa está instrução
 			c = a - b
-			escreva("x = ", x, "\n", a, " - ", b, " = ", c, "\n")
+			escreva("\nx = ", x,
+				" x é maior que 5", 
+				"\nEntão x é verdadeiro\n",
+				"mostra a parte do SENAO\n",
+				"que é a subtração de a - b\n", 
+				a, " - ", b, " = ", c, "\n")
 		} // end senao
 		
 	} // end início
@@ -58,7 +69,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1684; 
+ * @POSICAO-CURSOR = 1170; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
