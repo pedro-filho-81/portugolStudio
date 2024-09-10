@@ -26,24 +26,28 @@ programa
 		escreva("Digite o ladoC: ")
 		leia(ladoC)
 
-		// concições para se triângulo
+		// condições para ser um triângulo
+		// O valor de um lado tem que ser 
+		// menor que a soma dos outros dois
 		se((ladoA < ladoB + ladoC) e 
 			(ladoB < ladoA + ladoC) e 
 			(ladoC < ladoA + ladoB)) {
 			escreva("Pode ser um: ")	
 
-			// se pode ser um triângulo
 			// verifica se pode ser um triângulo equilátero
+			// todos os lados tem que ter o mesmo valor
 			se(ladoA == ladoB e ladoB == ladoC) {
 				escreva("Triângulo Equilátero")	
 			} senao // se não
 				// verifica se pode ser um triângulo isóseles
+				// basta dois lados terem o mesmo valor
 				se((ladoA == ladoB) ou 
 					(ladoA == ladoC) ou 
 					(ladoC == ladoB)) {
 					escreva("Triângulo Isósceles")
 				} senao { // senao
-					// é um triângulo escaleno
+					// verifica se pode ser um triângulo escaleno
+					// todos os lados tem um valor diferente
 					escreva("Triângulo Escaleno")
 				} // end se interno
 				
@@ -58,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1607; 
+ * @POSICAO-CURSOR = 1601; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
