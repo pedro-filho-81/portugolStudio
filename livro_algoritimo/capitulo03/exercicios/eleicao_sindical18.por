@@ -49,7 +49,7 @@ programa
 		
 		escreva("\nVotos válidos de A: ")
 		leia(validA)
-		
+				
 		escreva("Votos válidos de B: ")
 		leia(validB)
 		
@@ -112,7 +112,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2642; 
+ * @POSICAO-CURSOR = 1871; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
