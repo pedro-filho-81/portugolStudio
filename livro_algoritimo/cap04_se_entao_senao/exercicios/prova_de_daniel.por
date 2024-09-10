@@ -6,7 +6,7 @@ programa
 	 * 	se o terceiro número é maior do que os outros dois valores, 
 	 * 	se é maior do que um dos outros valores ou 
 	 * 	se é menor do que os outros dois valores.                        
-	 */
+	 */ 
 	funcao inicio()
 	{
 		// variáveis
@@ -22,18 +22,20 @@ programa
 
 		// condições
 		// se o terceiro for o maior
-		se(n3 > n1 e n3 > n2) { // teste 1 2 3
+		se(n3 > n1 e n3 > n2) { // teste 1 2 (3)
 			escreva("n3 é o maior.") // ok
-		}senao se(n3 < n1 e n3 < n2) { // teste 3 2 1
+		}senao se(n3 < n1 e n3 < n2) { // teste 3 2 (1)
 			escreva("n3 é o menor.") // ok
 			// aqui em baixo faltou você colocar
 			// se n3 > n2 para o teste 3 1 2	
-		}senao se(n3 > n1 ou n3 < n2 ou n3 > n2) { // teste 1 3 2
+		}senao se(n3 > n1 ou n3 > n2) { // teste 1 3 (2)
 			escreva("n3 maior que um dos números.") // ok
 			// se n3 igual a todos
-		}senao se(n3 == n1 e n3 == n2) { // teste 1 1 1, etc
+		}senao se(n3 == n1 e n3 == n2) { // teste 1 1 (1), etc
 			escreva("n3 é igual a todos.") // faltou 
-		}		
+		} senao {
+			escreva("n3 é menor que um dos números")	
+		} // end senao
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -41,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1026; 
+ * @POSICAO-CURSOR = 295; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
